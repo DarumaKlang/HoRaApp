@@ -70,3 +70,8 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 
 เปิด Visual Studio Code และเปิดพาเล็ตคำสั่ง (ด้วย `F1` หรือ `Ctrl+Shift+P` หรือ `Shift+Cmd+P`) เริ่มพิมพ์ "`flutter new`" เลือกคำสั่ง `Flutter: New Project`
 
+- VS Code จะแจ้งให้คุณค้นหา Flutter SDK บนคอมพิวเตอร์ของคุณ
+
+- - หากคุณติดตั้ง Flutter SDK แล้ว ให้คลิกค้นหา SDK
+
+- - หากคุณไม่ได้ติดตั้ง Flutter SDK ให้คลิกดาวน์โหลด SDK
