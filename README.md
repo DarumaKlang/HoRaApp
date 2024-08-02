@@ -20,7 +20,8 @@ Install [Android Studio](https://developer.android.com/studio)
 **To install Android Studio on Linux, follow these steps:**
 
 1. Unpack the `.tar.gz` file you downloaded to an appropriate location for your applications, such as within `/usr/local/` for your user profile or `/opt/` for shared users.
-For a 64-bit version of Linux, first install the required libraries for 64-bit machines.
+
+*__NOTE__ : For a 64-bit version of Linux, first install the required libraries for 64-bit machines.*
 
 2. To launch Android Studio, open a terminal, navigate to the `android-studio/bin/` directory, and execute `studio.sh`.
 3. Select whether you want to import previous Android Studio settings, then click **OK**.
@@ -35,13 +36,8 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 **หากต้องการติดตั้ง Android Studio บน Linux ให้ทำตามขั้นตอนต่อไปนี้**
 
 1. แตกไฟล์ `.tar.gz` ที่คุณดาวน์โหลดไปยัง ตำแหน่งที่เหมาะสมสำหรับแอปพลิเคชันของคุณ เช่น ภายใน `/usr/local/`สำหรับโปรไฟล์ผู้ใช้ของคุณหรือ `/opt/` สำหรับผู้ใช้ที่แชร์
-สำหรับ Linux เวอร์ชัน 64 บิต ก่อนอื่นให้ติดตั้ง ไลบรารีที่จำเป็นสำหรับเครื่อง 64 บิต
 
-~/Downloads$ `sudo cp android-studio-2024.1.1.12-linux.tar.gz /opt/`
-
-~/Downloads$ `cd /opt/`
-
-/opt$ `sudo tar -xvzf android-studio-2024.1.1.12-linux.tar.gz`
+*__NOTE__ : สำหรับ Linux เวอร์ชัน 64 บิต ก่อนอื่นให้ติดตั้ง ไลบรารีที่จำเป็นสำหรับเครื่อง 64 บิต*
 
 2. หากต้องการเปิดใช้งาน Android Studio ให้เปิดเทอร์มินัล ไปที่ไดเรกทอรี `android-studio/bin/` และเรียกใช้ `studio.sh`
 
@@ -58,4 +54,14 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 ```
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
+
+~$ `sudo mv ~/Downloads/android-studio-2024.1.1.12-linux.tar.gz /usr/local/`
+
+~$ `cd /usr/local/`
+
+/usr/local$ `sudo tar -xvzf android-studio-2024.1.1.12-linux.tar.gz`
+
+/usr/local$ `cd android-studio/bin`
+
+/usr/local/android-studio/bin$ `./studio.sh`
 
