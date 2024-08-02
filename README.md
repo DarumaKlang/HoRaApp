@@ -54,6 +54,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 ```
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 ```
+**ตัวอย่างการติดตั้ง**
 
 ~$ `sudo mv ~/Downloads/android-studio-2024.1.1.12-linux.tar.gz /usr/local/`
 
