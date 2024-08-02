@@ -66,3 +66,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 
 /usr/local/android-studio/bin$ `./studio.sh`
 
+**Create New Project**
+
+เปิด Visual Studio Code และเปิดพาเล็ตคำสั่ง (ด้วย `F1` หรือ `Ctrl+Shift+P` หรือ `Shift+Cmd+P`) เริ่มพิมพ์ "`flutter new`" เลือกคำสั่ง `Flutter: New Project`
+
